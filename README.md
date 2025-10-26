@@ -1,21 +1,9 @@
-﻿# 🎯 Job Prediction Based on Skills
+﻿#  Job Prediction Based on Skills
 
 A deep learning project that predicts job roles based on skills using Bidirectional LSTM neural networks. This project leverages Natural Language Processing (NLP) to analyze skill sets and classify them into appropriate job categories.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
-## 🔍 Overview
+##  Overview
 
 This project uses a Bidirectional LSTM model to predict suitable job roles based on a given set of skills. The model is trained on a dataset containing various job roles and their associated skills, making it useful for:
 - Job recommendation systems
@@ -23,7 +11,7 @@ This project uses a Bidirectional LSTM model to predict suitable job roles based
 - Skills gap analysis
 - Resume screening automation
 
-## ✨ Features
+##  Features
 
 - **Data Visualization**: 
   - Missing values heatmap
@@ -47,7 +35,7 @@ This project uses a Bidirectional LSTM model to predict suitable job roles based
   - Prediction examples
   - Real-time job prediction from skill descriptions
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the [roles-based-on-skills](https://huggingface.co/datasets/fazni/roles-based-on-skills) dataset from Hugging Face, which contains:
 - Job roles mapped to required skills
@@ -55,7 +43,7 @@ The project uses the [roles-based-on-skills](https://huggingface.co/datasets/faz
 - Multiple job categories
 - Comprehensive skill descriptions
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 The BiLSTM model consists of:
 
@@ -78,7 +66,7 @@ The BiLSTM model consists of:
 - Optimizer: Adam
 - Loss Function: Sparse Categorical Crossentropy
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -102,7 +90,7 @@ Or use requirements.txt (if available):
 pip install -r requirements.txt
 \\\
 
-## 💻 Usage
+##  Usage
 
 ### Running the Notebook
 
@@ -136,7 +124,7 @@ predict_job("Java JavaScript Android Development PHP HTML SQL MySQL CSS")
 # Output: Full Stack Developer / Web Developer
 \\\
 
-## 📈 Results
+##  Results
 
 - **Test Accuracy**: ~XX% (varies based on training)
 - **Number of Job Categories**: Automatically detected from dataset
@@ -150,7 +138,7 @@ The model successfully predicts:
 - Creative roles (Graphic Designer, Photographer, etc.)
 - Mixed skill sets (Full Stack Developer, etc.)
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**: Core programming language
 - **TensorFlow/Keras**: Deep learning framework
@@ -176,47 +164,9 @@ Job_Prediction/
     └── test-*.parquet
 \\\
 
-## 🔮 Future Improvements
 
-- [ ] Implement attention mechanism
-- [ ] Add model checkpointing
-- [ ] Create Flask/FastAPI web interface
-- [ ] Deploy as a REST API
-- [ ] Add more visualization metrics
-- [ ] Implement cross-validation
-- [ ] Add support for multiple languages
-- [ ] Create a skills recommendation feature
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
 
-1. Fork the repository
-2. Create your feature branch (\git checkout -b feature/AmazingFeature\)
-3. Commit your changes (\git commit -m 'Add some AmazingFeature'\)
-4. Push to the branch (\git push origin feature/AmazingFeature\)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**Yasmine Laajailia**
-
-- GitHub: [@yasmineajailia](https://github.com/yasmineajailia)
-
-## 🙏 Acknowledgments
-
-- Dataset provided by [fazni](https://huggingface.co/fazni) on Hugging Face
-- Inspired by the need for automated job-skills matching
-- Built with modern NLP and deep learning techniques
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub or contact the repository owner.
-
----
 
 ⭐ If you find this project useful, please consider giving it a star!
